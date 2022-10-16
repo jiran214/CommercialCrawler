@@ -1,0 +1,388 @@
+2022-10-11 15:44:03-INFO-log.py-log_scrapy_info-Scrapy 2.6.3 started (bot: company_scrapy)--147
+2022-10-11 15:44:03-INFO-log.py-log_scrapy_info-Versions: lxml 4.9.1.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.1, Twisted 22.8.0, Python 3.8.6rc1 (tags/v3.8.6rc1:08bd63d, Sep  7 2020, 23:10:23) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.1.0 (OpenSSL 3.0.5 5 Jul 2022), cryptography 38.0.1, Platform Windows-10-10.0.19041-SP0--154
+2022-10-11 15:44:03-INFO-crawler.py-__init__-Overridden settings:
+{'BOT_NAME': 'company_scrapy',
+ 'CONCURRENT_REQUESTS': 2,
+ 'DOWNLOAD_DELAY': 2,
+ 'LOG_FILE': 'D:/mypro/scrpay_pro/angel/company_scrapy/log/20221011.log',
+ 'LOG_FORMAT': '%(asctime)s-%(levelname)s-%(filename)s-%(funcName)s-%(message)s--%(lineno)d',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'company_scrapy.spiders',
+ 'SPIDER_MODULES': ['company_scrapy.spiders']}--60
+2022-10-11 15:44:03-INFO-telnet.py-__init__-Telnet Password: 3f6f42566e11923d--55
+2022-10-11 15:44:03-INFO-middleware.py-from_settings-Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']--51
+2022-10-11 15:44:03-INFO-middleware.py-from_settings-Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'company_scrapy.middlewares.SeleniumDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']--51
+2022-10-11 15:44:03-INFO-middleware.py-from_settings-Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']--51
+2022-10-11 15:44:03-INFO-middleware.py-from_settings-Enabled item pipelines:
+['company_scrapy.pipelines.ImagePipeline',
+ 'company_scrapy.pipelines.AngelPipeline']--51
+2022-10-11 15:44:03-INFO-engine.py-open_spider-Spider opened--316
+2022-10-11 15:44:03-INFO-logstats.py-log-Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)--48
+2022-10-11 15:44:03-INFO-telnet.py-start_listening-Telnet console listening on 127.0.0.1:6023--67
+2022-10-11 15:44:04-INFO-httperror.py-process_spider_exception-Ignoring response <403 https://www.g2.com/search?utf8=%E2%9C%93&query=matillion>: HTTP status code is not handled or not allowed--53
+2022-10-11 15:44:04-INFO-engine.py-close_spider-Closing spider (finished)--361
+2022-10-11 15:44:04-INFO-statscollectors.py-close_spider-Dumping Scrapy stats:
+{'downloader/request_bytes': 389,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 5897,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/403': 1,
+ 'elapsed_time_seconds': 0.758254,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 10, 11, 7, 44, 4, 723691),
+ 'httpcompression/response_bytes': 8390,
+ 'httpcompression/response_count': 1,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/403': 1,
+ 'log_count/INFO': 11,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 10, 11, 7, 44, 3, 965437)}--46
+2022-10-11 15:44:04-INFO-engine.py-<lambda>-Spider closed (finished)--388
+2022-10-11 15:44:51-INFO-log.py-log_scrapy_info-Scrapy 2.6.3 started (bot: company_scrapy)--147
+2022-10-11 15:44:51-INFO-log.py-log_scrapy_info-Versions: lxml 4.9.1.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.1, Twisted 22.8.0, Python 3.8.6rc1 (tags/v3.8.6rc1:08bd63d, Sep  7 2020, 23:10:23) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.1.0 (OpenSSL 3.0.5 5 Jul 2022), cryptography 38.0.1, Platform Windows-10-10.0.19041-SP0--154
+2022-10-11 15:44:51-INFO-crawler.py-__init__-Overridden settings:
+{'BOT_NAME': 'company_scrapy',
+ 'CONCURRENT_REQUESTS': 2,
+ 'DOWNLOAD_DELAY': 2,
+ 'LOG_FILE': 'D:/mypro/scrpay_pro/angel/company_scrapy/log/20221011.log',
+ 'LOG_FORMAT': '%(asctime)s-%(levelname)s-%(filename)s-%(funcName)s-%(message)s--%(lineno)d',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'company_scrapy.spiders',
+ 'SPIDER_MODULES': ['company_scrapy.spiders']}--60
+2022-10-11 15:44:51-INFO-telnet.py-__init__-Telnet Password: 440e98ef7d054859--55
+2022-10-11 15:44:51-INFO-middleware.py-from_settings-Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']--51
+2022-10-11 15:44:55-INFO-middleware.py-from_settings-Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'company_scrapy.middlewares.SeleniumDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']--51
+2022-10-11 15:44:55-INFO-middleware.py-from_settings-Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']--51
+2022-10-11 15:44:55-INFO-middleware.py-from_settings-Enabled item pipelines:
+['company_scrapy.pipelines.ImagePipeline',
+ 'company_scrapy.pipelines.AngelPipeline']--51
+2022-10-11 15:44:55-INFO-engine.py-open_spider-Spider opened--316
+2022-10-11 15:44:55-INFO-logstats.py-log-Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)--48
+2022-10-11 15:44:55-INFO-telnet.py-start_listening-Telnet console listening on 127.0.0.1:6023--67
+2022-10-11 15:44:56-INFO-httperror.py-process_spider_exception-Ignoring response <403 https://www.g2.com/search?utf8=%E2%9C%93&query=matillion>: HTTP status code is not handled or not allowed--53
+2022-10-11 15:44:56-INFO-engine.py-close_spider-Closing spider (finished)--361
+2022-10-11 15:44:56-INFO-statscollectors.py-close_spider-Dumping Scrapy stats:
+{'downloader/request_bytes': 389,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 5906,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/403': 1,
+ 'elapsed_time_seconds': 0.682093,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 10, 11, 7, 44, 56, 508261),
+ 'httpcompression/response_bytes': 8414,
+ 'httpcompression/response_count': 1,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/403': 1,
+ 'log_count/INFO': 11,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 10, 11, 7, 44, 55, 826168)}--46
+2022-10-11 15:44:56-INFO-engine.py-<lambda>-Spider closed (finished)--388
+2022-10-11 15:45:27-INFO-log.py-log_scrapy_info-Scrapy 2.6.3 started (bot: company_scrapy)--147
+2022-10-11 15:45:27-INFO-log.py-log_scrapy_info-Versions: lxml 4.9.1.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.1, Twisted 22.8.0, Python 3.8.6rc1 (tags/v3.8.6rc1:08bd63d, Sep  7 2020, 23:10:23) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.1.0 (OpenSSL 3.0.5 5 Jul 2022), cryptography 38.0.1, Platform Windows-10-10.0.19041-SP0--154
+2022-10-11 15:45:27-INFO-crawler.py-__init__-Overridden settings:
+{'BOT_NAME': 'company_scrapy',
+ 'CONCURRENT_REQUESTS': 2,
+ 'DOWNLOAD_DELAY': 2,
+ 'LOG_FILE': 'D:/mypro/scrpay_pro/angel/company_scrapy/log/20221011.log',
+ 'LOG_FORMAT': '%(asctime)s-%(levelname)s-%(filename)s-%(funcName)s-%(message)s--%(lineno)d',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'company_scrapy.spiders',
+ 'SPIDER_MODULES': ['company_scrapy.spiders']}--60
+2022-10-11 15:45:28-INFO-telnet.py-__init__-Telnet Password: 828ad83c07fc713f--55
+2022-10-11 15:45:28-INFO-middleware.py-from_settings-Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']--51
+2022-10-11 15:45:31-INFO-middleware.py-from_settings-Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'company_scrapy.middlewares.SeleniumDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']--51
+2022-10-11 15:45:31-INFO-middleware.py-from_settings-Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']--51
+2022-10-11 15:45:31-INFO-middleware.py-from_settings-Enabled item pipelines:
+['company_scrapy.pipelines.ImagePipeline',
+ 'company_scrapy.pipelines.AngelPipeline']--51
+2022-10-11 15:45:31-INFO-engine.py-open_spider-Spider opened--316
+2022-10-11 15:45:32-INFO-logstats.py-log-Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)--48
+2022-10-11 15:45:32-INFO-telnet.py-start_listening-Telnet console listening on 127.0.0.1:6023--67
+2022-10-11 15:45:33-INFO-httperror.py-process_spider_exception-Ignoring response <403 https://www.g2.com/search?utf8=%E2%9C%93&query=matillion>: HTTP status code is not handled or not allowed--53
+2022-10-11 15:45:33-INFO-engine.py-close_spider-Closing spider (finished)--361
+2022-10-11 15:45:33-INFO-statscollectors.py-close_spider-Dumping Scrapy stats:
+{'downloader/request_bytes': 389,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 5912,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/403': 1,
+ 'elapsed_time_seconds': 1.675589,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 10, 11, 7, 45, 33, 727648),
+ 'httpcompression/response_bytes': 8414,
+ 'httpcompression/response_count': 1,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/403': 1,
+ 'log_count/INFO': 11,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 10, 11, 7, 45, 32, 52059)}--46
+2022-10-11 15:45:33-INFO-engine.py-<lambda>-Spider closed (finished)--388
+2022-10-11 15:46:04-INFO-log.py-log_scrapy_info-Scrapy 2.6.3 started (bot: company_scrapy)--147
+2022-10-11 15:46:04-INFO-log.py-log_scrapy_info-Versions: lxml 4.9.1.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.1, Twisted 22.8.0, Python 3.8.6rc1 (tags/v3.8.6rc1:08bd63d, Sep  7 2020, 23:10:23) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.1.0 (OpenSSL 3.0.5 5 Jul 2022), cryptography 38.0.1, Platform Windows-10-10.0.19041-SP0--154
+2022-10-11 15:46:04-INFO-crawler.py-__init__-Overridden settings:
+{'BOT_NAME': 'company_scrapy',
+ 'CONCURRENT_REQUESTS': 2,
+ 'DOWNLOAD_DELAY': 2,
+ 'LOG_FILE': 'D:/mypro/scrpay_pro/angel/company_scrapy/log/20221011.log',
+ 'LOG_FORMAT': '%(asctime)s-%(levelname)s-%(filename)s-%(funcName)s-%(message)s--%(lineno)d',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'company_scrapy.spiders',
+ 'SPIDER_MODULES': ['company_scrapy.spiders']}--60
+2022-10-11 15:46:04-INFO-telnet.py-__init__-Telnet Password: db76ec8d74d50c91--55
+2022-10-11 15:46:04-INFO-middleware.py-from_settings-Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']--51
+2022-10-11 15:46:08-INFO-middleware.py-from_settings-Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'company_scrapy.middlewares.SeleniumDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']--51
+2022-10-11 15:46:08-INFO-middleware.py-from_settings-Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']--51
+2022-10-11 15:46:08-INFO-middleware.py-from_settings-Enabled item pipelines:
+['company_scrapy.pipelines.ImagePipeline',
+ 'company_scrapy.pipelines.AngelPipeline']--51
+2022-10-11 15:46:08-INFO-engine.py-open_spider-Spider opened--316
+2022-10-11 15:46:08-INFO-logstats.py-log-Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)--48
+2022-10-11 15:46:08-INFO-telnet.py-start_listening-Telnet console listening on 127.0.0.1:6023--67
+2022-10-11 15:46:09-INFO-httperror.py-process_spider_exception-Ignoring response <403 https://www.g2.com/search?utf8=%E2%9C%93&query=matillion>: HTTP status code is not handled or not allowed--53
+2022-10-11 15:46:09-INFO-engine.py-close_spider-Closing spider (finished)--361
+2022-10-11 15:46:09-INFO-statscollectors.py-close_spider-Dumping Scrapy stats:
+{'downloader/request_bytes': 389,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 5913,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/403': 1,
+ 'elapsed_time_seconds': 0.688003,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 10, 11, 7, 46, 9, 283288),
+ 'httpcompression/response_bytes': 8414,
+ 'httpcompression/response_count': 1,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/403': 1,
+ 'log_count/INFO': 11,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 10, 11, 7, 46, 8, 595285)}--46
+2022-10-11 15:46:09-INFO-engine.py-<lambda>-Spider closed (finished)--388
+2022-10-11 15:48:34-INFO-log.py-log_scrapy_info-Scrapy 2.6.3 started (bot: company_scrapy)--147
+2022-10-11 15:48:34-INFO-log.py-log_scrapy_info-Versions: lxml 4.9.1.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.1, Twisted 22.8.0, Python 3.8.6rc1 (tags/v3.8.6rc1:08bd63d, Sep  7 2020, 23:10:23) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.1.0 (OpenSSL 3.0.5 5 Jul 2022), cryptography 38.0.1, Platform Windows-10-10.0.19041-SP0--154
+2022-10-11 15:48:34-INFO-crawler.py-__init__-Overridden settings:
+{'BOT_NAME': 'company_scrapy',
+ 'CONCURRENT_REQUESTS': 2,
+ 'DOWNLOAD_DELAY': 2,
+ 'LOG_FILE': 'D:/mypro/scrpay_pro/angel/company_scrapy/log/20221011.log',
+ 'LOG_FORMAT': '%(asctime)s-%(levelname)s-%(filename)s-%(funcName)s-%(message)s--%(lineno)d',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'company_scrapy.spiders',
+ 'SPIDER_MODULES': ['company_scrapy.spiders']}--60
+2022-10-11 15:48:34-INFO-telnet.py-__init__-Telnet Password: 0b2cf95661f14a08--55
+2022-10-11 15:48:34-INFO-middleware.py-from_settings-Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']--51
+2022-10-11 15:48:37-INFO-middleware.py-from_settings-Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'company_scrapy.middlewares.SeleniumDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']--51
+2022-10-11 15:48:37-INFO-middleware.py-from_settings-Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']--51
+2022-10-11 15:48:37-INFO-middleware.py-from_settings-Enabled item pipelines:
+['company_scrapy.pipelines.ImagePipeline',
+ 'company_scrapy.pipelines.AngelPipeline']--51
+2022-10-11 15:48:37-INFO-engine.py-open_spider-Spider opened--316
+2022-10-11 15:48:37-INFO-logstats.py-log-Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)--48
+2022-10-11 15:48:37-INFO-telnet.py-start_listening-Telnet console listening on 127.0.0.1:6023--67
+2022-10-11 15:48:38-INFO-httperror.py-process_spider_exception-Ignoring response <403 https://www.g2.com/search?utf8=%E2%9C%93&query=matillion>: HTTP status code is not handled or not allowed--53
+2022-10-11 15:48:38-INFO-engine.py-close_spider-Closing spider (finished)--361
+2022-10-11 15:48:38-INFO-statscollectors.py-close_spider-Dumping Scrapy stats:
+{'downloader/request_bytes': 389,
+ 'downloader/request_count': 1,
+ 'downloader/request_method_count/GET': 1,
+ 'downloader/response_bytes': 5924,
+ 'downloader/response_count': 1,
+ 'downloader/response_status_count/403': 1,
+ 'elapsed_time_seconds': 0.896902,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 10, 11, 7, 48, 38, 835517),
+ 'httpcompression/response_bytes': 8434,
+ 'httpcompression/response_count': 1,
+ 'httperror/response_ignored_count': 1,
+ 'httperror/response_ignored_status_count/403': 1,
+ 'log_count/INFO': 11,
+ 'response_received_count': 1,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 10, 11, 7, 48, 37, 938615)}--46
+2022-10-11 15:48:38-INFO-engine.py-<lambda>-Spider closed (finished)--388
+2022-10-11 15:50:37-INFO-log.py-log_scrapy_info-Scrapy 2.6.3 started (bot: company_scrapy)--147
+2022-10-11 15:50:37-INFO-log.py-log_scrapy_info-Versions: lxml 4.9.1.0, libxml2 2.9.12, cssselect 1.1.0, parsel 1.6.0, w3lib 2.0.1, Twisted 22.8.0, Python 3.8.6rc1 (tags/v3.8.6rc1:08bd63d, Sep  7 2020, 23:10:23) [MSC v.1927 64 bit (AMD64)], pyOpenSSL 22.1.0 (OpenSSL 3.0.5 5 Jul 2022), cryptography 38.0.1, Platform Windows-10-10.0.19041-SP0--154
+2022-10-11 15:50:37-INFO-crawler.py-__init__-Overridden settings:
+{'BOT_NAME': 'company_scrapy',
+ 'CONCURRENT_REQUESTS': 2,
+ 'DOWNLOAD_DELAY': 2,
+ 'LOG_FILE': 'D:/mypro/scrpay_pro/angel/company_scrapy/log/20221011.log',
+ 'LOG_FORMAT': '%(asctime)s-%(levelname)s-%(filename)s-%(funcName)s-%(message)s--%(lineno)d',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'company_scrapy.spiders',
+ 'SPIDER_MODULES': ['company_scrapy.spiders']}--60
+2022-10-11 15:50:37-INFO-telnet.py-__init__-Telnet Password: 96df16c81aded935--55
+2022-10-11 15:50:37-INFO-middleware.py-from_settings-Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']--51
+2022-10-11 15:50:40-INFO-middleware.py-from_settings-Enabled downloader middlewares:
+['scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'company_scrapy.middlewares.SeleniumDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']--51
+2022-10-11 15:50:40-INFO-middleware.py-from_settings-Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']--51
+2022-10-11 15:50:40-INFO-middleware.py-from_settings-Enabled item pipelines:
+['company_scrapy.pipelines.ImagePipeline',
+ 'company_scrapy.pipelines.AngelPipeline']--51
+2022-10-11 15:50:40-INFO-engine.py-open_spider-Spider opened--316
+2022-10-11 15:50:40-INFO-logstats.py-log-Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)--48
+2022-10-11 15:50:40-INFO-telnet.py-start_listening-Telnet console listening on 127.0.0.1:6023--67
+2022-10-11 15:50:40-ERROR-scraper.py-_log_download_errors-Error downloading <GET https://www.g2.com/search?utf8=%E2%9C%93&query=matillion>--232
+Traceback (most recent call last):
+  File "D:\mypro\scrpay_pro\angel\env\lib\site-packages\twisted\internet\defer.py", line 1696, in _inlineCallbacks
+    result = context.run(gen.send, result)
+  File "D:\mypro\scrpay_pro\angel\env\lib\site-packages\scrapy\core\downloader\middleware.py", line 43, in process_request
+    raise _InvalidOutput(
+scrapy.exceptions._InvalidOutput: Middleware SeleniumDownloaderMiddleware.process_request must return None, Response or Request, got generator
+2022-10-11 15:50:40-INFO-engine.py-close_spider-Closing spider (finished)--361
+2022-10-11 15:50:40-INFO-statscollectors.py-close_spider-Dumping Scrapy stats:
+{'downloader/exception_count': 1,
+ 'downloader/exception_type_count/scrapy.exceptions._InvalidOutput': 1,
+ 'elapsed_time_seconds': 0.215819,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2022, 10, 11, 7, 50, 40, 978413),
+ 'log_count/ERROR': 1,
+ 'log_count/INFO': 10,
+ 'scheduler/dequeued': 1,
+ 'scheduler/dequeued/memory': 1,
+ 'scheduler/enqueued': 1,
+ 'scheduler/enqueued/memory': 1,
+ 'start_time': datetime.datetime(2022, 10, 11, 7, 50, 40, 762594)}--46
+2022-10-11 15:50:40-INFO-engine.py-<lambda>-Spider closed (finished)--388

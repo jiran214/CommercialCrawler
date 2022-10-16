@@ -1,0 +1,51 @@
+--------------------------------------------------2022-10-16T13:13:39.622269--------------------------------------------------{'-1': [], '0': ['genies', 'taranawireless', 'oysterhr', 'ripple', 'bostongene', 'flashparking', 'grover', 'commerceiq', 'divergent3d', 'glia', 'gauntlet', 'vendr', 'cheq', 'hasura', 'amagi', 'axelar', 'ecoflow', 'payhawk', 'carro', 'duneanalytics'], '1': ['reliaquest', 'singlestore', 'nexii', 'bluevoyant', 'timescale', 'fourkites', 'leadsquared', 'jupiterone', 'immuta', 'glean'], '2': ['matillion', 'plume', 'rivigo', 'nuvemshop', 'patsnap', 'grubmarket', 'scalapay', 'petcircle', 'unstoppabledomains', 'omadahealth', 'carebridgehealth', 'databricks', 'vayyar', 'habi', 'remarkable', 'chinac', 'taxfix', 'nexhealth']}
+{'fourkites', 'reliaquest', 'jupiterone', 'nexii', 'immuta', 'timescale', 'leadsquared', 'singlestore', 'glean'}
+[{'name': 'BlueVoyant', 'null': ['score'], 'link': '/products/bluevoyant'}, {'name': 'BlueVoyant Managed SIEM', 'null': ['score'], 'link': '/products/bluevoyant-managed-siem'}]
+----------------------------------------------------------------------------------------------------
+
+--------------------------------------------------2022-10-16T13:13:59.601198--------------------------------------------------{'-1': [], '0': ['genies', 'taranawireless', 'oysterhr', 'ripple', 'bostongene', 'flashparking', 'grover', 'commerceiq', 'divergent3d', 'glia', 'gauntlet', 'vendr', 'cheq', 'hasura', 'amagi', 'axelar', 'ecoflow', 'payhawk', 'carro', 'duneanalytics'], '1': ['reliaquest', 'singlestore', 'nexii', 'bluevoyant', 'timescale', 'fourkites', 'leadsquared', 'jupiterone', 'immuta', 'glean'], '2': ['matillion', 'plume', 'rivigo', 'nuvemshop', 'patsnap', 'grubmarket', 'scalapay', 'petcircle', 'unstoppabledomains', 'omadahealth', 'carebridgehealth', 'databricks', 'vayyar', 'habi', 'remarkable', 'chinac', 'taxfix', 'nexhealth']}
+{'glean', 'fourkites', 'nexii', 'leadsquared', 'jupiterone', 'reliaquest', 'timescale', 'singlestore', 'immuta'}
+[{'name': 'BlueVoyant', 'null': ['score'], 'link': '/products/bluevoyant'}, {'name': 'BlueVoyant Managed SIEM', 'null': ['score'], 'link': '/products/bluevoyant-managed-siem'}]
+----------------------------------------------------------------------------------------------------
+--------------------------------------------------2022-10-16T13:14:21.683133--------------------------------------------------
+{'-1': [], '0': ['genies', 'taranawireless', 'oysterhr', 'ripple', 'bostongene', 'flashparking', 'grover', 'commerceiq', 'divergent3d', 'glia', 'gauntlet', 'vendr', 'cheq', 'hasura', 'amagi', 'axelar', 'ecoflow', 'payhawk', 'carro', 'duneanalytics'], '1': ['reliaquest', 'singlestore', 'nexii', 'bluevoyant', 'timescale', 'fourkites', 'leadsquared', 'jupiterone', 'immuta', 'glean'], '2': ['matillion', 'plume', 'rivigo', 'nuvemshop', 'patsnap', 'grubmarket', 'scalapay', 'petcircle', 'unstoppabledomains', 'omadahealth', 'carebridgehealth', 'databricks', 'vayyar', 'habi', 'remarkable', 'chinac', 'taxfix', 'nexhealth']}
+{'jupiterone', 'immuta', 'glean', 'reliaquest', 'singlestore', 'timescale', 'leadsquared', 'nexii', 'fourkites'}
+[{'name': 'BlueVoyant', 'null': ['score'], 'link': '/products/bluevoyant'}, {'name': 'BlueVoyant Managed SIEM', 'null': ['score'], 'link': '/products/bluevoyant-managed-siem'}]
+----------------------------------------------------------------------------------------------------
+--------------------------------------------------2022-10-16T14:12:09.429157--------------------------------------------------
+{'-1': [], '0': ['commerceiq', 'divergent3d', 'cheq', 'hasura', 'amagi', 'axelar', 'ecoflow', 'payhawk', 'carro', 'duneanalytics'], '1': ['matillion', 'plume', 'rivigo', 'patsnap', 'grubmarket', 'reliaquest', 'singlestore', 'jupiterone', 'immuta', 'databricks', 'glean', 'habi', 'chinac', 'nexhealth', 'ripple'], '2': ['nuvemshop', 'scalapay', 'nexii', 'bluevoyant', 'petcircle', 'unstoppabledomains', 'timescale', 'omadahealth', 'fourkites', 'leadsquared', 'carebridgehealth', 'vayyar', 'remarkable', 'taxfix', 'genies', 'taranawireless', 'oysterhr', 'bostongene', 'flashparking', 'grover', 'glia', 'gauntlet', 'vendr']}
+set()
+[{'name': 'Matillion Data Loader', 'null': [], 'link': '/products/matillion-data-loader'}, {'name': 'Plume Design', 'null': ['score'], 'link': '/products/plume-design'}, {'name': 'Plume', 'null': ['score'], 'link': '/products/plume'}, {'name': 'Rivigo', 'null': ['logo', 'score'], 'link': '/products/rivigo'}, {'name': 'Karbon | Corporate Card & Payout', 'null': ['logo', 'score'], 'link': '/products/karbon-corporate-card-payout'}, {'name': 'Matillion ETL', 'null': [], 'link': '/products/matillion-etl'}, {'name': 'PatSnap', 'null': [], 'link': '/products/patsnap'}, {'name': 'PatSnap Discovery', 'null': ['logo', 'score'], 'link': '/products/patsnap-discovery'}, {'name': 'GrubMarket', 'null': ['score'], 'link': '/products/grubmarket'}, {'name': 'ReliaQuest GreyMatter', 'null': ['score'], 'link': '/products/reliaquest-greymatter'}, {'name': 'POS RMS', 'null': ['score'], 'link': '/products/pos-rms'}, {'name': 'SingleStore', 'null': ['productDesc'], 'link': '/products/singlestore'}, {'name': 'Glean', 'null': [], 'link': '/products/glean'}, {'name': 'Immuta', 'null': [], 'link': '/products/immuta'}, {'name': 'Immutable', 'null': ['logo', 'score'], 'link': '/products/immutable'}, {'name': 'JupiterOne', 'null': [], 'link': '/products/jupiterone'}, {'name': 'habitate.io', 'null': [], 'link': '/products/habitate-io'}, {'name': 'Habitu8 Security Awareness Training', 'null': ['score'], 'link': '/products/habitu8-security-awareness-training'}, {'name': 'Azure Databricks', 'null': [], 'link': '/products/azure-databricks'}, {'name': 'Databricks Lakehouse Platform', 'null': [], 'link': '/products/databricks-lakehouse-platform'}, {'name': 'ChinaCDN', 'null': ['score'], 'link': '/products/chinacdn'}, {'name': 'ChinaCache', 'null': ['logo', 'score'], 'link': '/products/chinacache'}, {'name': 'NexHealth', 'null': [], 'link': '/products/nexhealth'}, {'name': 'Ripple', 'null': [], 'link': '/products/silicon-reef-group-ripple'}]
+----------------------------------------------------------------------------------------------------
+--------------------------------------------------2022-10-16T14:14:29.519513--------------------------------------------------
+{'-1': [], '0': ['commerceiq', 'divergent3d', 'cheq', 'hasura', 'amagi', 'axelar', 'ecoflow', 'payhawk', 'carro', 'duneanalytics'], '1': ['matillion', 'plume', 'rivigo', 'patsnap', 'grubmarket', 'reliaquest', 'singlestore', 'jupiterone', 'immuta', 'databricks', 'glean', 'habi', 'chinac', 'nexhealth', 'ripple'], '2': ['nuvemshop', 'scalapay', 'nexii', 'bluevoyant', 'petcircle', 'unstoppabledomains', 'timescale', 'omadahealth', 'fourkites', 'leadsquared', 'carebridgehealth', 'vayyar', 'remarkable', 'taxfix', 'genies', 'taranawireless', 'oysterhr', 'bostongene', 'flashparking', 'grover', 'glia', 'gauntlet', 'vendr']}
+set()
+{'name': 'Matillion Data Loader', 'null': [], 'link': '/products/matillion-data-loader'}
+{'name': 'Matillion ETL', 'null': [], 'link': '/products/matillion-etl'}
+{'name': 'PatSnap', 'null': [], 'link': '/products/patsnap'}
+{'name': 'Glean', 'null': [], 'link': '/products/glean'}
+{'name': 'Immuta', 'null': [], 'link': '/products/immuta'}
+{'name': 'JupiterOne', 'null': [], 'link': '/products/jupiterone'}
+{'name': 'habitate.io', 'null': [], 'link': '/products/habitate-io'}
+{'name': 'Azure Databricks', 'null': [], 'link': '/products/azure-databricks'}
+{'name': 'Databricks Lakehouse Platform', 'null': [], 'link': '/products/databricks-lakehouse-platform'}
+{'name': 'NexHealth', 'null': [], 'link': '/products/nexhealth'}
+{'name': 'Ripple', 'null': [], 'link': '/products/silicon-reef-group-ripple'}
+----------------------------------------------------------------------------------------------------
+--------------------------------------------------2022-10-16T14:14:58.032933--------------------------------------------------
+{'-1': [], '0': ['commerceiq', 'divergent3d', 'cheq', 'hasura', 'amagi', 'axelar', 'ecoflow', 'payhawk', 'carro', 'duneanalytics'], '1': ['matillion', 'plume', 'rivigo', 'patsnap', 'grubmarket', 'reliaquest', 'singlestore', 'jupiterone', 'immuta', 'databricks', 'glean', 'habi', 'chinac', 'nexhealth', 'ripple'], '2': ['nuvemshop', 'scalapay', 'nexii', 'bluevoyant', 'petcircle', 'unstoppabledomains', 'timescale', 'omadahealth', 'fourkites', 'leadsquared', 'carebridgehealth', 'vayyar', 'remarkable', 'taxfix', 'genies', 'taranawireless', 'oysterhr', 'bostongene', 'flashparking', 'grover', 'glia', 'gauntlet', 'vendr']}
+set()
+{'name': 'Plume Design', 'null': ['score'], 'link': '/products/plume-design'}
+{'name': 'Plume', 'null': ['score'], 'link': '/products/plume'}
+{'name': 'Rivigo', 'null': ['logo', 'score'], 'link': '/products/rivigo'}
+{'name': 'Karbon | Corporate Card & Payout', 'null': ['logo', 'score'], 'link': '/products/karbon-corporate-card-payout'}
+{'name': 'PatSnap Discovery', 'null': ['logo', 'score'], 'link': '/products/patsnap-discovery'}
+{'name': 'GrubMarket', 'null': ['score'], 'link': '/products/grubmarket'}
+{'name': 'ReliaQuest GreyMatter', 'null': ['score'], 'link': '/products/reliaquest-greymatter'}
+{'name': 'POS RMS', 'null': ['score'], 'link': '/products/pos-rms'}
+{'name': 'SingleStore', 'null': ['productDesc'], 'link': '/products/singlestore'}
+{'name': 'Immutable', 'null': ['logo', 'score'], 'link': '/products/immutable'}
+{'name': 'Habitu8 Security Awareness Training', 'null': ['score'], 'link': '/products/habitu8-security-awareness-training'}
+{'name': 'ChinaCDN', 'null': ['score'], 'link': '/products/chinacdn'}
+{'name': 'ChinaCache', 'null': ['logo', 'score'], 'link': '/products/chinacache'}
+----------------------------------------------------------------------------------------------------
